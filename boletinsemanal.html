@@ -101,31 +101,59 @@ b\:* {behavior:url(#default#VML);}
             font-size: 8.0pt;
             font-style: italic;
         }
-        <!-- color: white; -->
 
-        ol {
-            margin-top: 0in;
-            margin-bottom: 0in;
-            margin-left: -2197in;
+        < !-- color: white;
+        -->
+        ol
+        {
+        margin-top:
+        0in;
+        margin-bottom:
+        0in;
+        margin-left:
+        -2197in;
+        }
+        ul
+        {
+        margin-top:
+        0in;
+        margin-bottom:
+        0in;
+        margin-left:
+        -2197in;
+        }
+        a
+        {
+        color:#7F7F7F;
+        font-weight:
+        bold;
+        font-size:
+        12px;
+        }
+        @page
+        {
+        size:
+        8.0302in
+        11.0in;
+        }
+        .inscripcion #registrar {
+            cursor: pointer;
+            width: 100%;
+            border: none;
+            background: #F77732;
+            color: #fff;
+            margin: 0 0 5px;
+            padding: 10px;
+            font-size: 15px;
         }
 
-        ul {
-            margin-top: 0in;
-            margin-bottom: 0in;
-            margin-left: -2197in;
+        #registrar:hover {
+            background: #db4d00;
+            -webkit-transition: background 0.3s ease-in-out;
+            -moz-transition: background 0.3s ease-in-out;
+            transition: background-color 0.3s ease-in-out;
         }
-
         
-
-        a {
-            color:#7F7F7F;
-            font-weight: bold;
-            font-size: 12px;
-        }
-
-        @page {
-            size: 8.0302in 11.0in;
-        }
         -->
     </style>
     <!--[if gte mso 9]><xml>
@@ -234,7 +262,14 @@ left:47px;top:433px;width:308px;height:710px'>
                                     últimos años hemos tenido la oportunidad de dar conferencias y participar en
                                     talleres en las universidades del sur, ha sido muy grata nuestra experiencia que a
                                     partir de ahora hacemos oficial nuestro taller con cursos básicos de programación y
-                                    diseño totalmente gratuito. <a class="MsoBodyText" href="cursopub.html">Inscribirse</a></span></p>
+                                    diseño totalmente gratuito.
+
+                                    <div class="inscripcion">  <button onclick="location.href='cursopub.html'" id="registrar">Registrar</button> </div>
+                                  
+
+                                    <!-- <a class="MsoBodyText" href="cursopub.html">Inscribirse</a> -->
+
+                                </span></p>
                             <p class=MsoBodyText><span lang=es style='language:es'>&nbsp;</span></p>
                         </div>
                         <![if !vml]>
@@ -682,7 +717,7 @@ left:134px;top:1102px;width:289px;height:218px'><img width=289 height=218 src="b
 
     </div>
 
-  
+
 
 </body>
 
